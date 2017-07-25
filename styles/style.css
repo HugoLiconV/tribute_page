@@ -7,6 +7,8 @@ html {
   font-weight: 400;
   line-height: 1.8em;
   color: #222;
+  background: #f9f9f9;
+  color: #726f77;
 }
 
 .home-image {
@@ -31,7 +33,7 @@ html {
 
 .main-content .title {
   font-size: 100px;
-  color: lightcoral;
+  color: #ee4d4d; /*light coral  */
   letter-spacing: 8px;
   font-weight: bold;
   text-transform: uppercase;
@@ -59,8 +61,8 @@ html {
   font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 300;
-  color: #777;
+  font-weight: bold;
+  color: #2b2e48;
 }
 
 .section-header p {
@@ -133,24 +135,24 @@ footer {
 
 .timeline > li > .timeline-panel:before {
   position: absolute;
-  top: 26px;
+  top: 15px;
   right: -15px;
   display: inline-block;
   border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-left: 15px solid #ee4d4d;
+  border-right: 0 solid #ee4d4d;
   border-bottom: 15px solid transparent;
   content: " ";
 }
 
 .timeline > li > .timeline-panel:after {
   position: absolute;
-  top: 27px;
+  top: 15px;
   right: -14px;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #ee4d4d;
+  border-right: 0 solid #ee4d4d;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -213,8 +215,11 @@ footer {
 }
 
 .timeline-title {
-  margin-top: 0;
-  color: inherit;
+  padding: 15px;
+  background: #ee4d4d;
+  color: #fff;
+  margin: -20px -20px 0 -20px;
+  font-weight: 300;
 }
 
 .timeline-body > p,
@@ -225,7 +230,6 @@ footer {
 .timeline-body > p + p {
   margin-top: 5px;
 }
-
 
 footer a {
   text-decoration: none;
